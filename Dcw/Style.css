@@ -1,4 +1,59 @@
 
+<<<<<<< HEAD
+=======
+
+
+.container img {
+    width: 700px;
+    padding: 40px;
+    border-radius: 80px;
+    margin-left: 300px;
+}
+
+.text {
+    background: orange;
+    padding: 30px;
+    float: right;
+    margin-right: 300px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.container1 img {
+    width: 700px;
+    padding: 40px;
+    border-radius: 80px;
+    margin-left: 300px;
+}
+.text1 {
+    background: orange;
+    font-size: 17px;
+    padding: 30px;
+    float: right;
+    margin-right: 300px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.container3 img {
+    width: 700px;
+    padding: 40px;
+    border-radius: 80px;
+    margin-left: 300px;
+}
+
+.text2 {
+    background: orange;
+    font-size: 17px;
+    padding: 30px;
+    float: right;
+    margin-right: 300px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+<<<<<<< HEAD
+=======
+>>>>>>> fcbcc7ffe15dad911c09fb0ca2c8651201136826
  .heading {text-align: center;}
  
 .heading {
