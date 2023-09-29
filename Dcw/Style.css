@@ -12,8 +12,8 @@
     background: orange;
     padding: 30px;
     float: right;
-    margin-right: 500px;
-    margin-top: 75px;
+    margin-right: 300px;
+    margin-top: 50px;
     border-radius: 20px;
 }
 
@@ -28,11 +28,27 @@
     font-size: 17px;
     padding: 30px;
     float: right;
-    margin-right: 500px;
-    margin-top: 75px;
+    margin-right: 300px;
+    margin-top: 50px;
     border-radius: 20px;
 }
 
+.container3 img {
+    width: 700px;
+    padding: 40px;
+    border-radius: 80px;
+    margin-left: 300px;
+}
+
+.text2 {
+    background: orange;
+    font-size: 17px;
+    padding: 30px;
+    float: right;
+    margin-right: 300px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
 <<<<<<< HEAD
 =======
  .heading {text-align: center;}
