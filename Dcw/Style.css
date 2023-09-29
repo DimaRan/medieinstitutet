@@ -3,3 +3,10 @@
     padding: 20px;
     border-radius: 50px;
 }
+form  {
+    border: 2px solid rgb(48, 31, 31);
+    width: 500px;
+    padding: 50px;
+    margin: 50px;
+
+}
