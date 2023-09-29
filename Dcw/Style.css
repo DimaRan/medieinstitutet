@@ -1,21 +1,37 @@
 
 
 
-.container {
-    background: orange;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 30px;
-    display: table;
-}
-
-
 .container img {
-    width: 300px;
-    border-radius: 50px;
+    width: 700px;
+    padding: 40px;
+    border-radius: 80px;
+    margin-left: 300px;
 }
 
+.text {
+    background: orange;
+    padding: 30px;
+    float: right;
+    margin-right: 500px;
+    margin-top: 75px;
+    border-radius: 20px;
+}
 
+.container1 img {
+    width: 700px;
+    padding: 40px;
+    border-radius: 80px;
+    margin-left: 300px;
+}
+.text1 {
+    background: orange;
+    font-size: 17px;
+    padding: 30px;
+    float: right;
+    margin-right: 500px;
+    margin-top: 75px;
+    border-radius: 20px;
+}
 
 <<<<<<< HEAD
 =======
@@ -39,4 +55,38 @@ form  {
 }
 
 
+ * {margin: 0;
+padding: 0;
+box-sizing: border-box;
 
+}
+
+.row { 
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+ .footer {
+    background-color: #24262b;
+    padding: 70px 0;
+ }
+ 
+ .containerF{
+
+    max-width: 1170px;
+    background-color: red;
+    margin: auto;
+ }
+
+ .footer-col{
+
+    width: 25%;
+    padding: 0 15px;
+    
+
+
+ }
