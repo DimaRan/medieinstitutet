@@ -1,22 +1,35 @@
 
-.container img {
-    width: 600px;
-       border-radius: 50px;
-}
+
 
 .container {
-    float: right;
-    margin-right: 400px;
-    margin-top: 30px;
-    background-color: orange;
+    background: orange;
     padding: 20px;
     border-radius: 10px;
-    
+    margin-top: 30px;
+    display: table;
+}
+
+
+.container img {
+    width: 300px;
+    border-radius: 50px;
 }
 
 
 
 <<<<<<< HEAD
+=======
+ .heading {text-align: center;}
+ 
+.heading {
+
+    font-family: 'Rowdies', cursive;
+    font-size: larger;
+   
+}
+
+.heading3 {text-align: center;}
+>>>>>>> b842706b2b85dd6d5d37d651dd5961b3a1c1cd8d
 form  {
     border: 2px solid rgb(48, 31, 31);
     width: 500px;
@@ -24,7 +37,6 @@ form  {
     margin: 50px;
 
 }
-=======
 
 
->>>>>>> 8ff10602d9001084040f13afe2fcfdadd8c505fb
+
