@@ -49,4 +49,38 @@ form  {
 
  .heading {text-align: center;}
 
+ * {margin: 0;
+padding: 0;
+box-sizing: border-box;
 
+}
+
+.row { 
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+ .footer {
+    background-color: #24262b;
+    padding: 70px 0;
+ }
+ 
+ .containerF{
+
+    max-width: 1170px;
+    background-color: red;
+    margin: auto;
+ }
+
+ .footer-col{
+
+    width: 25%;
+    padding: 0 15px;
+    
+
+
+ }
