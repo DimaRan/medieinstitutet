@@ -1,40 +1,4 @@
 
-
-
-.container img {
-    width: 700px;
-    padding: 40px;
-    border-radius: 80px;
-    margin-left: 300px;
-}
-
-.text {
-    background: orange;
-    padding: 30px;
-    float: right;
-    margin-right: 500px;
-    margin-top: 75px;
-    border-radius: 20px;
-}
-
-.container1 img {
-    width: 700px;
-    padding: 40px;
-    border-radius: 80px;
-    margin-left: 300px;
-}
-.text1 {
-    background: orange;
-    font-size: 17px;
-    padding: 30px;
-    float: right;
-    margin-right: 500px;
-    margin-top: 75px;
-    border-radius: 20px;
-}
-
-<<<<<<< HEAD
-=======
  .heading {text-align: center;}
  
 .heading {
@@ -45,7 +9,6 @@
 }
 
 .heading3 {text-align: center;}
->>>>>>> b842706b2b85dd6d5d37d651dd5961b3a1c1cd8d
 form  {
     border: 2px solid rgb(48, 31, 31);
     width: 500px;
@@ -54,6 +17,40 @@ form  {
 
 }
 
+.container1 img {
+    width: 600px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.text {
+    float: right;
+    margin-right: 700px;
+    margin-top: 100px;
+
+}
+
+.text1 {
+    float: right;
+    margin-right: 80px;
+    margin-top: 100px;
+
+}
+.services {
+    float: right;
+    margin-right: 80px;
+    background-color: orange; 
+    color: black; 
+    padding: 10px; 
+    border-radius: 10px; 
+    max-width: 300px;
+    margin: 20px 0;
+}
+
+.heading {
+
+    text-align: center;
+}
 
  * {margin: 0;
 padding: 0;
@@ -62,7 +59,7 @@ box-sizing: border-box;
 }
 
 .row { 
-
+margin
     display: flex;
     flex-wrap: wrap;
 }
@@ -78,7 +75,6 @@ ul {
  .containerF{
 
     max-width: 1170px;
-    background-color: red;
     margin: auto;
  }
 
@@ -86,7 +82,15 @@ ul {
 
     width: 25%;
     padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+
     
 
 
- }
+}
