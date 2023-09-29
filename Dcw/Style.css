@@ -24,6 +24,16 @@
     margin-top: 100px;
 
 }
+.services {
+    float: right;
+    margin-right: 80px;
+    background-color: orange; 
+    color: black; 
+    padding: 10px; 
+    border-radius: 10px; 
+    max-width: 300px;
+    margin: 20px 0;
+}
 
  .heading {text-align: center;}
 
