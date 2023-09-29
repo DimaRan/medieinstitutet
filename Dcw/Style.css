@@ -1,18 +1,15 @@
-
+html {
+    background-color:lightgray;
+    font-family: 'Oswald', sans-serif;
+    margin: 20px;
+}
 .container img {
     width: 600px;
     padding: 20px;
     border-radius: 50px;
 }
-<<<<<<< HEAD
-form  {
-    border: 2px solid rgb(48, 31, 31);
-    width: 500px;
-    padding: 50px;
-    margin: 50px;
 
-}
-=======
+
 
 .container1 img {
     width: 600px;
@@ -46,4 +43,24 @@ form  {
 
  .heading {text-align: center;}
 
->>>>>>> 8ff10602d9001084040f13afe2fcfdadd8c505fb
+
+h2{
+    background: blue;
+    font-size: 30px;
+}
+.medlembild{
+ width: 100px;
+ padding: 20px;
+ border-radius: 100px;
+float:left;
+ }
+.medlemnamn{
+    font-weight: bold;
+}
+.egenansvar{
+    font-style: italic;
+
+
+    
+
+}
