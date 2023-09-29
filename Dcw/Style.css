@@ -1,3 +1,4 @@
+
 .container img {
     width: 600px;
     padding: 20px;
@@ -12,7 +13,7 @@
 
 .text {
     float: right;
-    margin-right: 100px;
+    margin-right: 300px;
     margin-top: 100px;
 
 }
@@ -23,3 +24,6 @@
     margin-top: 100px;
 
 }
+
+ .heading {text-align: center;}
+
