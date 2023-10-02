@@ -55,15 +55,6 @@
     font-size: larger;
    
 }
-<<<<<<< HEAD
-form  {
-    border: 2px solid rgb(48, 31, 31);
-    width: 500px;
-    padding: 50px;
-    margin: 50px;
-
-}
-=======
 
 .container1 img {
     width: 600px;
@@ -94,7 +85,60 @@ form  {
     max-width: 300px;
     margin: 20px 0;
 }
+.heading {text-align: center;}
+html{
+    background:lightgrey;
+}
 
- .heading {text-align: center;}
+h2{
+   background:lightblue;
+   font-size: xx-large;
+   text-align: center;
+}
 
->>>>>>> 8ff10602d9001084040f13afe2fcfdadd8c505fb
+.allContent  {
+    width: 100%;
+    min-width: 640px;
+}
+
+.content {
+    width: 640px;
+    height:280px;
+    margin: 0 auto;
+}
+
+.myImgDiv  {
+    width:300px;
+    float:left;
+}
+
+.myImgDiv .medlembild {
+    width: 200px;
+    height: 250px;
+    padding: 5px;
+    border-radius: 110px;
+    background-color: lightblue;
+    margin: 0 auto;
+}
+
+.myImgDiv .medlemnamn {
+    font-weight: bold;
+}
+
+.myImgDiv .medlemansvar {
+    font-weight: italic ;
+}
+
+.myTextDiv {
+    float:left;
+    width: 320px;
+    background-color: lightblue;
+    margin-top: 50px;
+    margin-left: 20px;    
+    text-align: left;
+}
+
+.content img {
+    display: block;
+    margin-left: 10px;
+}
