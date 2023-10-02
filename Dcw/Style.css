@@ -1,6 +1,4 @@
 
-
-
 .container img {
     width: 700px;
     padding: 40px;
@@ -48,8 +46,6 @@
     margin-top: 50px;
     border-radius: 20px;
 }
-<<<<<<< HEAD
-=======
  .heading {text-align: center;}
  
 .heading {
@@ -58,9 +54,7 @@
     font-size: larger;
    
 }
-
-.heading3 {text-align: center;}
->>>>>>> b842706b2b85dd6d5d37d651dd5961b3a1c1cd8d
+<<<<<<< HEAD
 form  {
     border: 2px solid rgb(48, 31, 31);
     width: 500px;
@@ -68,40 +62,38 @@ form  {
     margin: 50px;
 
 }
+=======
 
+.container1 img {
+    width: 600px;
+    padding: 20px;
+    border-radius: 50px;
+}
 
- * {margin: 0;
-padding: 0;
-box-sizing: border-box;
+.text {
+    float: right;
+    margin-right: 700px;
+    margin-top: 100px;
 
 }
 
-.row { 
+.text1 {
+    float: right;
+    margin-right: 80px;
+    margin-top: 100px;
 
-    display: flex;
-    flex-wrap: wrap;
+}
+.services {
+    float: right;
+    margin-right: 80px;
+    background-color: orange; 
+    color: black; 
+    padding: 10px; 
+    border-radius: 10px; 
+    max-width: 300px;
+    margin: 20px 0;
 }
 
-ul {
-    list-style: none;
-}
- .footer {
-    background-color: #24262b;
-    padding: 70px 0;
- }
- 
- .containerF{
+ .heading {text-align: center;}
 
-    max-width: 1170px;
-    background-color: red;
-    margin: auto;
- }
-
- .footer-col{
-
-    width: 25%;
-    padding: 0 15px;
-    
-
-
- }
+>>>>>>> 8ff10602d9001084040f13afe2fcfdadd8c505fb
