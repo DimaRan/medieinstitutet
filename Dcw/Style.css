@@ -114,29 +114,12 @@ box-sizing: border-box;
 ul {list-style: none;}
 li {list-style: none;}
 
-
  .footer {
     background-color: #24262b;
     padding: 70px 0;
  }
  
  .containerF{
-
-
-    max-width: 1170px;
-    background-color: red;
-    margin: auto;
- }
-
- .footer-col{
-
-    width: 25%;
-    padding: 0 15px;
-    
-
-
- }
-
 
     max-width: 1170px;
     margin: auto;
@@ -170,6 +153,31 @@ li {list-style: none;}
         width: 50px
     
 }
+
+.footer-col ul li:not(:last child) {
+   margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    
+    
+
+
+}
+.footer-col {
+
+    color: ;
+}
+
+
+
 .heading {text-align: center;}
 html{
     background:lightgrey;
