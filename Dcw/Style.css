@@ -107,9 +107,9 @@ ul {
 padding: 0;
 box-sizing: border-box;
 
-}
+ }
 
-
+.heading3 {text-align: center;}
 
 ul {list-style: none;}
 li {list-style: none;}
@@ -259,4 +259,11 @@ h2{
     color: ;
 }
 
+.headerlinks {text-align: center;}
+
+.header { background-color: #24262b;
+    padding: 70px 0;}
+
+.header { display: block;
+    margin-left: 10px;}
 
