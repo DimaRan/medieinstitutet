@@ -55,8 +55,8 @@ body { line-height: 1.5;
     margin-top: 50px;
     border-radius: 20px;
 }
-<<<<<<< HEAD
-=======
+ HEAD
+
  .heading {text-align: center;}
  
 .heading {
@@ -65,14 +65,12 @@ body { line-height: 1.5;
     font-size: larger;
    
 }
-<<<<<<< HEAD
-=======
+HEAD
+
 
 .heading3 {text-align: center;}
-<<<<<<< HEAD
->>>>>>> b842706b2b85dd6d5d37d651dd5961b3a1c1cd8d
-=======
->>>>>>> 318be3898a02e5b96a76a1f7166f5220146aee12
+ HEAD
+
 form  {
     border: 2px solid rgb(48, 31, 31);
     width: 500px;
@@ -94,11 +92,11 @@ box-sizing: border-box;
     flex-wrap: wrap;
 }
 
-<<<<<<< HEAD
+HEAD
 ul {
     list-style: none;
 }
-=======
+
 .heading {
 
     text-align: center;
@@ -116,14 +114,14 @@ box-sizing: border-box;
 ul {list-style: none;}
 li {list-style: none;}
 
->>>>>>> 318be3898a02e5b96a76a1f7166f5220146aee12
+
  .footer {
     background-color: #24262b;
     padding: 70px 0;
  }
  
  .containerF{
-<<<<<<< HEAD
+
 
     max-width: 1170px;
     background-color: red;
@@ -138,8 +136,7 @@ li {list-style: none;}
 
 
  }
-=======
->>>>>>> 9bf68fdd7dfd250eba9faac445640860aaec20ae
+
 
     max-width: 1170px;
     margin: auto;
@@ -178,7 +175,7 @@ html{
     background:lightgrey;
 }
 
-<<<<<<< HEAD
+ HEAD
 h2{
    background:lightblue;
    font-size: xx-large;
@@ -231,7 +228,7 @@ h2{
     display: block;
     margin-left: 10px;
 }
-=======
+
 .footer-col ul li:not(:last child) {
    margin-bottom: 10px;
 }
@@ -249,5 +246,4 @@ h2{
 
 }
 
->>>>>>> 318be3898a02e5b96a76a1f7166f5220146aee12
->>>>>>> 9bf68fdd7dfd250eba9faac445640860aaec20ae
+
