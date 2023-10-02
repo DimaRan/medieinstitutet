@@ -1,17 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
-body { line-height: 1.5;
-    font-family: 'Poppins', sans-serif;
-
-}
-
-
 
 .container img {
     width: 700px;
     padding: 40px;
     border-radius: 80px;
-    margin-left: 200px;
+    margin-left: 300px;
 }
 
 .text {
@@ -27,7 +19,7 @@ body { line-height: 1.5;
     width: 700px;
     padding: 40px;
     border-radius: 80px;
-    margin-left: 200px;
+    margin-left: 300px;
 }
 .text1 {
     background: orange;
@@ -39,24 +31,26 @@ body { line-height: 1.5;
     border-radius: 20px;
 }
 
-.container3 img { 
+.container3 img {
     width: 700px;
     padding: 40px;
     border-radius: 80px;
-    margin-left: 200px;
+    margin-left: 300px;
 }
 
 .text2 {
     background: orange;
-    font-size: 17px;
     padding: 30px;
     float: right;
     margin-right: 300px;
     margin-top: 50px;
     border-radius: 20px;
 }
+<<<<<<< Updated upstream
  HEAD
 
+=======
+>>>>>>> Stashed changes
  .heading {text-align: center;}
  
 .heading {
@@ -65,6 +59,7 @@ body { line-height: 1.5;
     font-size: larger;
    
 }
+<<<<<<< Updated upstream
 HEAD
 
 
@@ -76,15 +71,29 @@ form  {
     width: 500px;
     padding: 50px;
     margin: 50px;
+=======
+
+.container1 img {
+    width: 600px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.text {
+    float: right;
+    margin-right: 700px;
+    margin-top: 100px;
+>>>>>>> Stashed changes
 
 }
 
-
- * {margin: 0;
-padding: 0;
-box-sizing: border-box;
+.text1 {
+    float: right;
+    margin-right: 80px;
+    margin-top: 100px;
 
 }
+<<<<<<< Updated upstream
 
 .row { 
 
@@ -267,3 +276,15 @@ h2{
 .header { display: block;
     margin-left: 10px;}
 
+=======
+.services {
+    float: right;
+    margin-right: 80px;
+    background-color: orange; 
+    color: black; 
+    padding: 10px; 
+    border-radius: 10px; 
+    max-width: 300px;
+    margin: 20px 0;
+}
+>>>>>>> Stashed changes
