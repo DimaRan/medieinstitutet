@@ -46,11 +46,8 @@
     margin-top: 50px;
     border-radius: 20px;
 }
-<<<<<<< Updated upstream
  HEAD
 
-=======
->>>>>>> Stashed changes
  .heading {text-align: center;}
  
 .heading {
@@ -59,7 +56,6 @@
     font-size: larger;
    
 }
-<<<<<<< Updated upstream
 HEAD
 
 
@@ -71,19 +67,6 @@ form  {
     width: 500px;
     padding: 50px;
     margin: 50px;
-=======
-
-.container1 img {
-    width: 600px;
-    padding: 20px;
-    border-radius: 50px;
-}
-
-.text {
-    float: right;
-    margin-right: 700px;
-    margin-top: 100px;
->>>>>>> Stashed changes
 
 }
 
@@ -93,7 +76,6 @@ form  {
     margin-top: 100px;
 
 }
-<<<<<<< Updated upstream
 
 .row { 
 
@@ -276,15 +258,3 @@ h2{
 .header { display: block;
     margin-left: 10px;}
 
-=======
-.services {
-    float: right;
-    margin-right: 80px;
-    background-color: orange; 
-    color: black; 
-    padding: 10px; 
-    border-radius: 10px; 
-    max-width: 300px;
-    margin: 20px 0;
-}
->>>>>>> Stashed changes
