@@ -37,14 +37,6 @@ h2{
     margin: 0 auto;
 }
 
-.myImgDiv .medlemnamn {
-    font-weight: bold;
-}
-
-.myImgDiv .medlemansvar {
-    font-weight: italic ;
-}
-
 .myTextDiv {
     float:left;
     width: 320px;
@@ -52,6 +44,14 @@ h2{
     margin-top: 50px;
     margin-left: 20px;    
     text-align: left;
+}
+
+.myTextDiv .medlemnamn {
+    font-weight: bold;
+}
+
+.myTextDiv .medlemansvar {
+    font-weight: italic ;
 }
 
 .content img {
