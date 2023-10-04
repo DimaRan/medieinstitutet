@@ -1,53 +1,51 @@
 
 .container img {
-    width: 7%;
+    width: 37%;
     padding: 40px;
     border-radius: 80px;
-    margin-left: 100px;
+    margin-left: 10%;
 }
 
 .text {
     background: orange;
     font-size: 15px;
-    padding: 22px;
+    padding: 1%;
     float: right;
-    margin-right: 120px;
-    margin-top: 43px;
+    margin-right: 7%;
+    margin-top: 3%;
     border-radius: 20px;
 }
 
 .container1 img {
-    width: 700px;
+    width: 37%;
     padding: 40px;
     border-radius: 80px;
-    margin-left: 100px;
+    margin-left: 10%;
 }
 .text1 {
     background: orange;
-    font-size: 15.5px;
-    padding: 20px;
+    font-size: 15px;
+    padding: 1%;
     float: right;
-    margin-right: 120px;
-    margin-top: 43px;
+    margin-right: 7%;
+    margin-top: 3%;
     border-radius: 20px;
 }
 
 .container3 img {
-    width: 700px;
+    width: 37%;
     padding: 40px;
     border-radius: 80px;
-    margin-left: 100px;
+    margin-left: 10%;
 }
 
 .text2 {
     background: orange;
     font-size: 15px;
-    padding: 19px;
-    padding: 30px;
-
+    padding: 1%;
     float: right;
-    margin-right: 120px;
-    margin-top: 43px;
+    margin-right: 7%;
+    margin-top: 3%;
     border-radius: 20px;
 }
 
