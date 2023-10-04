@@ -59,7 +59,7 @@ form  {
     text-align: center;
 }
 
- *{
+  {
     margin: 0;
 padding: 0;
 box-sizing: border-box;
@@ -133,9 +133,6 @@ li {list-style: none;}
     color: ;
 }
 
-}
-HEAD
-
 .heading {text-align: center;}
 
 .heading {
@@ -144,7 +141,7 @@ HEAD
    font-size: larger;
   
 }
-HEAD
+
 
 
 .heading3 {text-align: center;}
@@ -181,7 +178,7 @@ ul {
    text-align: center;
 }
 
-*{
+{
    margin: 0;
 padding: 0;
 box-sizing: border-box;

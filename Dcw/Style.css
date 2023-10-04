@@ -1,6 +1,6 @@
 
 .container img {
-    width: 700px;
+    width: 7%;
     padding: 40px;
     border-radius: 80px;
     margin-left: 100px;
@@ -61,5 +61,10 @@
     font-family: Sailec,sans-serif;
     font-size: 12px;
     font-weight: 700;
+<<<<<<< HEAD
     display: inline-block;
 }
+=======
+       display: inline-block;
+    }
+>>>>>>> d3ab7afd07168aaad293f0e69a05c4862dc73146
