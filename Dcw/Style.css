@@ -1,25 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
-body { line-height: 1.5;
-    font-family: 'Poppins', sans-serif;
-
-}
-
-
 
 .container img {
-    width: 700px;
+    width: 7%;
     padding: 40px;
     border-radius: 80px;
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 .text {
     background: orange;
-    padding: 30px;
+    font-size: 15px;
+    padding: 22px;
     float: right;
-    margin-right: 300px;
-    margin-top: 50px;
+    margin-right: 120px;
+    margin-top: 43px;
     border-radius: 20px;
 }
 
@@ -27,44 +20,51 @@ body { line-height: 1.5;
     width: 700px;
     padding: 40px;
     border-radius: 80px;
-    margin-left: 200px;
+    margin-left: 100px;
 }
 .text1 {
     background: orange;
-    font-size: 17px;
-    padding: 30px;
+    font-size: 15.5px;
+    padding: 20px;
     float: right;
-    margin-right: 300px;
-    margin-top: 50px;
+    margin-right: 120px;
+    margin-top: 43px;
     border-radius: 20px;
 }
 
-.container3 img { 
+.container3 img {
     width: 700px;
     padding: 40px;
     border-radius: 80px;
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 .text2 {
     background: orange;
-    font-size: 17px;
+    font-size: 15px;
+    padding: 19px;
     padding: 30px;
+
     float: right;
-    margin-right: 300px;
-    margin-top: 50px;
+    margin-right: 120px;
+    margin-top: 43px;
     border-radius: 20px;
 }
- HEAD
 
- .heading {text-align: center;}
- 
-.heading {
-
-    font-family: 'Rowdies', cursive;
-    font-size: larger;
-   
+.ew-button-cta {
+    margin-top: 10px;
+    color: black;
+    float: none;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 10px 15px 10px;
+    font-family: Sailec,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+<<<<<<< HEAD
+    display: inline-block;
 }
+<<<<<<< HEAD
 HEAD
 
 
@@ -301,3 +301,9 @@ h2{
 
     
  
+=======
+=======
+       display: inline-block;
+    }
+>>>>>>> d3ab7afd07168aaad293f0e69a05c4862dc73146
+>>>>>>> f2710732478953658df961f4a997621309779791

@@ -31,7 +31,7 @@ body { line-height: 1.5;
     text-align: center;
 }
 
- *{
+  {
     margin: 0;
 padding: 0;
 box-sizing: border-box;
@@ -134,3 +134,212 @@ li {list-style: none;}
     color: ;
 }
 
+.heading {text-align: center;}
+
+.heading {
+
+   font-family: 'Rowdies', cursive;
+   font-size: larger;
+  
+}
+
+
+
+.heading3 {text-align: center;}
+HEAD
+
+form  {
+   border: 2px solid rgb(48, 31, 31);
+   width: 500px;
+   padding: 50px;
+   margin: 50px;
+
+}
+
+.text1 {
+   float: right;
+   margin-right: 80px;
+   margin-top: 100px;
+
+}
+
+.row { 
+
+   display: flex;
+   flex-wrap: wrap;
+}
+
+HEAD
+ul {
+   list-style: none;
+}
+
+.heading {
+
+   text-align: center;
+}
+
+{
+   margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.heading3 {text-align: center;}
+
+ul {list-style: none;}
+li {list-style: none;}
+
+.footer {
+   background-color: #24262b;
+   padding: 70px 0;
+}
+
+.containerF{
+
+   max-width: 1170px;
+   margin: auto;
+}
+
+.footer-col{
+
+   width: 25%;
+   padding: 0 15px;
+}
+
+.footer-col h4{
+   font-size: 18px;
+   color: #ffffff;
+   text-transform: capitalize;
+   margin-bottom: 35px;
+   font-weight: 500;
+   position: relative;
+
+}
+
+.footer-col 
+   h4::before{
+       content: '';
+       position:absolute;
+       left:0;
+       bottom: -10px;
+       background-color: #e91e63;
+       height: 2px;
+       box-sizing: border-box;
+       width: 50px
+   
+}
+
+.footer-col ul li:not(:last child) {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+   font-size: 16px;
+   text-transform: capitalize;
+   color: #ffffff;
+   text-decoration: none;
+   font-weight: 300;
+   color: #bbbbbb;
+   display: block;
+   
+   
+
+
+}
+.footer-col {
+
+   color: ;
+}
+
+
+
+.heading {text-align: center;}
+html{
+   background:lightgrey;
+}
+
+HEAD
+h2{
+  background:lightblue;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.allContent  {
+   width: 100%;
+   min-width: 640px;
+}
+
+.content {
+   width: 640px;
+   height:280px;
+   margin: 0 auto;
+}
+
+.myImgDiv  {
+   width:300px;
+   float:left;
+}
+
+.myImgDiv .medlembild {
+   width: 200px;
+   height: 250px;
+   padding: 5px;
+   border-radius: 110px;
+   background-color: lightblue;
+   margin: 0 auto;
+}
+
+.myImgDiv .medlemnamn {
+   font-weight: bold;
+}
+
+.myImgDiv .medlemansvar {
+   font-weight: italic ;
+}
+
+.myTextDiv {
+   float:left;
+   width: 320px;
+   background-color: lightblue;
+   margin-top: 50px;
+   margin-left: 20px;    
+   text-align: left;
+}
+
+.content img {
+   display: block;
+   margin-left: 10px;
+}
+
+.footer-col ul li:not(:last child) {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+   font-size: 16px;
+   text-transform: capitalize;
+   color: #ffffff;
+   text-decoration: none;
+   font-weight: 300;
+   color: #bbbbbb;
+   display: block;
+   
+   
+
+
+}
+.footer-col {
+
+   color: ;
+}
+
+.headerlinks {text-align: center;}
+
+.header { background-color: #24262b;
+   padding: 70px 0;}
+
+.header { display: block;
+   margin-left: 10px;}
