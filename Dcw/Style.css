@@ -1,67 +1,39 @@
 
-.container img {
+.container, .container1, .container3 {
+    display: flex;
+    align-items: center; 
+}
+
+.text, .text1, .text2 {
+    background: orange;
+    font-size: 15px;
+    padding: 1%;
+    margin-right: 15%;
+    border-radius: 20px;
+    width: 100%;
+    margin-left: 5%;
+} 
+
+
+.container img, .container1 img, .container3 img {
     width: 37%;
     padding: 40px;
     border-radius: 80px;
     margin-left: 10%;
-}
-
-.text {
-    background: orange;
-    font-size: 15px;
-    padding: 1%;
-    float: right;
-    margin-right: 7%;
-    margin-top: 3%;
-    border-radius: 20px;
-}
-
-.container1 img {
-    width: 37%;
-    padding: 40px;
-    border-radius: 80px;
-    margin-left: 10%;
-}
-.text1 {
-    background: orange;
-    font-size: 15px;
-    padding: 1%;
-    float: right;
-    margin-right: 7%;
-    margin-top: 3%;
-    border-radius: 20px;
-}
-
-.container3 img {
-    width: 37%;
-    padding: 40px;
-    border-radius: 80px;
-    margin-left: 10%;
-}
-
-.text2 {
-    background: orange;
-    font-size: 15px;
-    padding: 1%;
-    float: right;
-    margin-right: 7%;
-    margin-top: 3%;
-    border-radius: 20px;
 }
 
 .ew-button-cta {
     margin-top: 10px;
     color: black;
-    float: none;
-    background-color: gray;
+    background-color: rgb(147, 135, 254);
     border-radius: 10px;
     padding: 10px 15px 10px;
     font-family: Sailec,sans-serif;
     font-size: 12px;
     font-weight: 700;
-<<<<<<< HEAD
     display: inline-block;
 }
+
 <<<<<<< HEAD
 HEAD
 

@@ -1,0 +1,39 @@
+<html>
+<head>
+    <script>
+    // en kli-click function som ta vardet i 
+    //todo-input och skapa en <li> med vardet i
+        function listAppend(){
+            let inputValue = document.querySelector('#todo-input').value;
+            console.log(inputValue);
+            //ta input value och skapa en <li>inputValue</li>
+            //HINT: document.createElement
+
+        let newLi = document.createElement('li');
+        //Id lagger till barnet creatTextNode
+        newLi.appendChild(document.createTextNode(inputValue));
+
+       
+      
+        let list = document.querySelector("ul");
+
+        //stoopa in newLi i List
+        list.appendChild(newLi);
+
+
+        }
+        
+ </script>
+</head>
+<body>
+    <!--this is a comment-->
+
+    <input id="todo-input" type="text" />
+    <button id="todo-submit"onclick="listAppend()"> Add to</button>
+
+
+    
+    <ul></ul>
+    
+</body>
+</html>
