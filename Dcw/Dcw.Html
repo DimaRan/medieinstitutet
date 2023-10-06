@@ -6,6 +6,7 @@
     <title>DCW</title>
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" herf="Style.css">
 </head>
 <body>
 
@@ -30,7 +31,35 @@
     <li><a href="#"> Editing</a></li>
 </ul>
 </div>
+<div class="hero"> 
+    <div class="colockcontainer">
+        <div class="clock">
+            <span id="hrs">00</span>
+            <span>:</span>
+            <span id="min">00</span>
+            <span>:</span>
+            <span id="sec">00</span>
 
+        </div>
+   
+    </div>
+
+</div>
+<script>
+    let hrs = document.getElementById("hrs");
+    let min = document.getElementById("min");
+    let sec = document.getElementById("sec");
+
+  
+    let currenTime = new Date();
+
+hrs.innerHTML = currenTime.getHours();
+min.innerHTML = currenTime.getMinutes();
+sec.innerHTML = currenTime.getSeconds();
+
+
+
+</script>
 </header>
 
 
