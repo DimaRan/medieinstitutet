@@ -29,6 +29,7 @@
     <li><a href="#">Post-Production</a></li>
     <li><a href="#">Concept Development</a></li>
     <li><a href="#"> Editing</a></li>
+    <input type="button" id = "changeColor" onclick = "changeBgColor()" value="night mode"></input>
 </ul>
 </div>
 <div class="hero"> 
@@ -50,12 +51,33 @@
     let min = document.getElementById("min");
     let sec = document.getElementById("sec");
 
-  
+  setInterval (()=>{
     let currenTime = new Date();
 
 hrs.innerHTML = currenTime.getHours();
 min.innerHTML = currenTime.getMinutes();
 sec.innerHTML = currenTime.getSeconds();
+
+  },1000);
+
+  function changeBgColor() {
+
+if (document.getElementById("changeColor").value=="night mode") {
+
+    document.body.style.backgroundColor = "darkgray";
+
+    document.getElementById("changeColor").value ="Day mode";
+
+} else {
+
+    document.body.style.backgroundColor = "white";
+
+    document.getElementById("changeColor").value ="night mode";
+
+}
+
+}
+    
 
 
 
