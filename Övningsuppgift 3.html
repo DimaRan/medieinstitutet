@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Manipulation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="changeToRandomImage()">Change to Random Image</button>
+    <img id="sampleImage3" src="https://via.placeholder.com/300" alt="Sample Image 3">
+
+    <script>
+
+const images = [
+    "https://via.placeholder.com/300/FF0000",  // Red
+    "https://via.placeholder.com/300/00FF00",  // Green
+    "https://via.placeholder.com/300/0000FF",  // Blue
+    // ... add more image URLs as needed
+];
+
+function getRandomImage() {
+    const randomIndex = Math.floor(Math.random() * images.length);
+    return images[randomIndex];
+}
+
+function changeToRandomImage() {
+    const imageElement = document.getElementById('sampleImage3');
+    imageElement.src = getRandomImage();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

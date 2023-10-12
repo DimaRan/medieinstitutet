@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Image Changer</title>
+    <link rel="stylesheet" href="styleov.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1 id="headerText">Image Display</h1>
+    <p id="bodyText">This is a sample image. Click the button to change it.</p>
+    <button onclick="changeToRandomImage()">Change to Random Image</button>
+    <img id="sampleImage3" src="https://via.placeholder.com/300" alt="Sample Image 3">
+
+
+    <script>
+function changeToRandomImage() {
+    const imageElement = document.getElementById('sampleImage3');
+    const newImageSrc = getRandomImage();
+    imageElement.src = newImageSrc;
+
+    const headerText = document.getElementById('headerText');
+    const bodyText = document.getElementById('bodyText');
+
+    if (newImageSrc.includes("FF0000")) { // Red
+        headerText.textContent = "Red Image";
+        headerText.style.color = "red";
+        bodyText.textContent = "This is a red-themed image.";
+        bodyText.style.color = "red";
+    } else if (newImageSrc.includes("00FF00")) { // Green
+        headerText.textContent = "Green Image";
+        headerText.style.color = "green";
+        bodyText.textContent = "This is a green-themed image.";
+        bodyText.style.color = "green";
+    } else if (newImageSrc.includes("0000FF")) { // Blue
+        headerText.textContent = "Blue Image";
+        headerText.style.color = "blue";
+        bodyText.textContent = "This is a blue-themed image.";
+        bodyText.style.color = "blue";
+    }
+}
+
+
+    </script>
+</body>
+</html>

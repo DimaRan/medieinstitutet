@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Manipulation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <button onclick="hideImage()">Hide Image</button>
+    <button onclick="showImage()">Show Image</button>
+    <button onclick="changeWidth()">Change Width</button>
+    <img id="sampleImage" src="https://via.placeholder.com/300" alt="Sample Image">
+
+
+
+    <script>
+
+
+function hideImage() {
+    document.getElementById('sampleImage').style.display = 'none';
+}
+
+function showImage() {
+    document.getElementById('sampleImage').style.display = 'block';
+}
+
+function changeWidth() {
+    const image = document.getElementById('sampleImage');
+    if (image.width === 300) {
+        image.width = 500;
+    } else {
+        image.width = 300;
+    }
+}
+
+
+
+
+        </script>
+</body>
+
+</html>

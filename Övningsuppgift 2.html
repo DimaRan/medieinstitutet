@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Manipulation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="hideImage('sampleImage')">Hide Image 1</button>
+    <button onclick="showImage('sampleImage')">Show Image 1</button>
+    <button onclick="changeWidth('sampleImage')">Change Width of Image 1</button>
+    <img id="sampleImage" src="https://via.placeholder.com/300" alt="Sample Image 1">
+
+    <button onclick="hideImage('sampleImage2')">Hide Image 2</button>
+    <button onclick="showImage('sampleImage2')">Show Image 2</button>
+    <button onclick="changeWidth('sampleImage2')">Change Width of Image 2</button>
+    <img id="sampleImage2" src="https://via.placeholder.com/300/ff0000" alt="Sample Image 2">
+
+    <button onclick="hideImage('sampleImage3')">Hide Image 3</button>
+    <button onclick="showImage('sampleImage3')">Show Image 3</button>
+    <button onclick="changeWidth('sampleImage3')">Change Width of Image 3</button>
+    <img id="sampleImage3" src="https://via.placeholder.com/300/00ff00" alt="Sample Image 3">
+    
+
+    <script>
+
+function hideImage() {
+    document.getElementById('sampleImage3').style.display = 'none';
+}
+
+function showImage() {
+    document.getElementById('sampleImage3').style.display = 'block';
+}
+
+function changeWidth() {
+    const image = document.getElementById('sampleImage3');
+    if (image.width === 300) {
+        image.width = 500;
+    } else {
+        image.width = 300;
+    }
+}
+
+
+
+
+
+    </script>
+</body>
+</html>
